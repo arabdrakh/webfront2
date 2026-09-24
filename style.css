@@ -177,6 +177,48 @@ nav a:hover,
     opacity: 1;
 }
 
+/* Portfolio */
+.portfolio-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+.portfolio-projects {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.portfolio-card,
+.about-sidebar {
+    padding: 20px;
+    border: 1px solid #dddddd;
+    border-radius: 6px;
+    background-color: #ffffff;
+}
+
+.portfolio-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-card .button {
+    align-self: flex-start;
+}
+
+.about-sidebar ul {
+    padding-left: 20px;
+}
+
+/* Footer */
+.site-footer {
+    padding: 25px;
+    color: #ffffff;
+    background-color: #222222;
+    text-align: center;
+}
+
 button,
 .button {
     display: inline-block;
