@@ -22,7 +22,7 @@ h3 {
     padding: 40px 20px;
 }
 
-/* Navigation */
+
 .page-layout {
     display: grid;
     min-height: 100vh;
@@ -92,7 +92,7 @@ nav a:hover,
     color: #8cc7ed;
 }
 
-/* Cards */
+
 .card-row {
     display: flex;
     align-items: stretch;
@@ -139,7 +139,7 @@ nav a:hover,
     margin-top: auto;
 }
 
-/* Gallery */
+
 .gallery-grid {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -177,7 +177,7 @@ nav a:hover,
     opacity: 1;
 }
 
-/* Portfolio */
+
 .portfolio-grid {
     display: grid;
     grid-template-columns: 2fr 1fr;
@@ -211,7 +211,6 @@ nav a:hover,
     padding-left: 20px;
 }
 
-/* Footer */
 .site-footer {
     grid-area: footer;
     padding: 25px;
@@ -220,7 +219,7 @@ nav a:hover,
     text-align: center;
 }
 
-/* Responsive */
+
 @media (max-width: 768px) {
     .site-header {
         flex-direction: column;
@@ -267,11 +266,16 @@ nav a:hover,
 button,
 .button {
     display: inline-block;
-    padding: 10px 16px;
+    padding: 8px 14px;
     border: 0;
-    border-radius: 4px;
+    border-radius: 2px;
     color: #ffffff;
-    background-color: #1769aa;
+    background-color: #6b5272;
     text-decoration: none;
     cursor: pointer;
+}
+
+.button:hover,
+button:hover {
+    background-color: #503b57;
 }
