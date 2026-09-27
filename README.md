@@ -2,6 +2,8 @@
 
 - **Name:** Aruzhan Abdrakhmanova
 - **Group:** IT-2501
+- **Deployed site:** https://arabdrakh.github.io/webfront2/ 
+
 
 ## Part 1: Flexbox
 
