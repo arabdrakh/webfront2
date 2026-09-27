@@ -36,7 +36,7 @@ h3 {
 
 .site-header {
     grid-area: header;
-    display: flex;
+    display: flex;  
     justify-content: space-between;
     align-items: center;
     gap: 20px;
@@ -76,6 +76,12 @@ h3 {
 .header-nav a {
     color: white;
     text-decoration: none;
+}
+
+.logo img {
+    display: block;
+    width: 36px;
+    height: 36px;
 }
 
 .header-nav {
