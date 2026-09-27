@@ -1,54 +1,54 @@
-# Assignment #2 - Advanced CSS (Flexbox & Grid)
+# Assignment 2: Advanced CSS (Flexbox & Grid)
 
-**Name:** YOUR NAME<br>
-**Group:** YOUR GROUP
+- **Name:** Aruzhan
+- **Group:** IT-2501
 
-## Part 1 - Flexbox
+## Part 1: Flexbox
 
-### Task 0 - Navigation Bar
+### Task 0: Navigation Bar
 
-The header uses Flexbox to place the logo on the left and the navigation links on the right. The main properties are `display: flex`, `justify-content`, `align-items`, and `gap`.
+The header uses Flexbox to align the portfolio name and navigation links. The navigation links lead to the home and portfolio sections.
 
-![Task 0 Navigation Bar](screenshots/task0-navbar.png)
+![Final Task 0: Page header and navigation](screenshots/final-task0-page-navigation.png)
 
-### Task 1 - Card Row
+### Task 1: Card Row
 
-The three project cards are displayed in one row with Flexbox. The cards use equal width, equal height, a column layout, and a simple hover effect.
+The three flower cards are arranged in a row with Flexbox. Each card uses a column layout to keep its image, title, description, and button together. The images have a consistent display height so the cards line up evenly.
 
-![Task 1 Cards](screenshots/task1-cards.png)
+![Final Task 1: Flower cards](screenshots/final-task1-flex-cards.png)
 
-## Part 2 - Grid System
+## Part 2: CSS Grid
 
-### Task 2 - Page Layout with Grid Areas
+### Task 2: Page Layout with Grid Areas
 
-The page uses CSS Grid with named areas for its header, section navigation, main content, and footer. The flower cards, gallery, and portfolio make up the main content area. On smaller screens, the areas stack vertically. The main properties are `display: grid`, `grid-template-columns`, `grid-template-areas`, and `grid-area`.
+The page layout uses named Grid areas for the header, section navigation sidebar, main content, and footer. On narrow screens, these areas stack vertically.
 
-![Task 2 Grid Layout](screenshots/task2-grid-layout.png)
+![Final Task 2: Page grid areas](screenshots/final-task2-grid-areas.png)
 
-### Task 3 - Image Gallery
+### Task 3: Image Gallery
 
-The gallery contains nine items in three equal columns on desktop screens. CSS Grid creates the layout, and a simple opacity overlay shows each caption when the item is hovered.
+The gallery uses CSS Grid to arrange nine images in three columns on wider screens. The images are cropped consistently, and the layout adapts to smaller screens.
 
-![Task 3 Gallery](screenshots/task3-gallery.png)
+![Final Task 3: Image gallery](screenshots/final-task3-gallery.png)
 
-## Part 3 - Combining Flexbox & Grid
+## Part 3: Combining Flexbox and Grid
 
-### Task 4 - Portfolio Page
+### Task 4: Portfolio Page
 
-The portfolio uses CSS Grid to place one project card beside a concise information sidebar. The card uses Flexbox in a column direction, the header navigation uses Flexbox, and the footer spans the page width.
+The portfolio section uses Grid to place a project card on the left and an information sidebar on the right. Flexbox arranges the title, description, and button inside the project card. The page footer spans the full width.
 
-![Task 4 Portfolio](screenshots/task4-portfolio.png)
+![Final Task 4: Portfolio section and footer](screenshots/final-task4-portfolio.png)
 
-## Work Process
+## Work Process and Problems
 
-First, I created the basic HTML structure and connected the CSS file. Flexbox was used for the navigation and project cards. CSS Grid was used for the page layout demonstration and image gallery. Grid and Flexbox were combined in the portfolio section. Basic media queries were added for smaller screens. The image and screenshot files can be added later.
+I started by building the page structure, then used Flexbox for the header navigation and flower cards. I added named Grid areas for the page layout, a Grid-based gallery, and a two-column portfolio section. I checked the layout at desktop and mobile widths and adjusted the responsive rules.
 
-## Manual Steps
+One issue during development was that the gallery photos did not line up evenly. The image files have different proportions, so some items appeared larger or out of place, and early layout attempts showed the images stacked instead of forming a consistent grid. I adjusted the gallery columns and gaps, gave gallery items a consistent height, and used `object-fit: cover` so the images fit their cells. I also made the gallery switch to fewer columns on smaller screens. The screenshots below show intermediate stages of this layout work.
 
-- Replace `YOUR NAME` and `YOUR GROUP`.
-- Add or replace the image files in the `images` folder.
-- Take screenshots for Tasks 0-4.
-- Put the screenshots in the `screenshots` folder using the names in this report.
-- Check the screenshot references in this README.
-- Create a public GitHub repository and push the commits.
-- Submit the GitHub URL.
+![Process screenshot 1: Early gallery layout](screenshots/process-gallery-layout-1.png)
+
+![Process screenshot 2: Gallery alignment iteration](screenshots/process-gallery-layout-2.png)
+
+![Process screenshot 3: Gallery layout iteration](screenshots/process-gallery-layout-3.png)
+
+![Process screenshot 4: Image display before final adjustments](screenshots/process-gallery-layout-4.png)
