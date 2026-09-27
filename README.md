@@ -47,7 +47,7 @@ The portfolio section uses Grid to place a project card on the left and an infor
 
 I started by building the page structure, then used Flexbox for the header navigation and flower cards. I added named Grid areas for the page layout, a Grid-based gallery, and a two-column portfolio section. I checked the layout at desktop and mobile widths and adjusted the responsive rules.
 
-One issue during development was that the gallery photos did not line up evenly. The image files have different proportions, so some items appeared larger or out of place, and early layout attempts showed the images stacked instead of forming a consistent grid. I adjusted the gallery columns and gaps, gave gallery items a consistent height, and used `object-fit: cover` so the images fit their cells. I also made the gallery switch to fewer columns on smaller screens. The screenshots below show intermediate stages of this layout work.
+One issue during development was that the gallery photos did not line up evenly. The image files have different proportions, so some items appeared larger or out of place, and early layout attempts showed the images stacked instead of forming a consistent grid. I adjusted the gallery columns and gaps, gave gallery items a consistent height, and used fixed-height frames with overflow clipping to keep the images proportional while fitting their cells. I also made the gallery switch to fewer columns on smaller screens. The screenshots below show intermediate stages of this layout work.
 
 ![Final Task 3: Image gallery](screenshots/final-task3-gallery.png)
 
