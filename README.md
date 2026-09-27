@@ -11,7 +11,7 @@
 
 The header uses Flexbox to align the portfolio name and navigation links. The navigation links lead to the flowerr, gallery, and portfolio sections.
 
-![Process screenshot 2: Gallery alignment iteration](screenshots/process-gallery-layout-2.png)
+![Task 0: Header navigation and logo](screenshots/image-1.png)
 
 
 ### Task 1: Card Row
@@ -54,4 +54,6 @@ One issue during development was that the gallery photos did not line up evenly.
 ![Final Task 0: Page header and navigation](screenshots/final-task0-page-navigation.png)
 
 ![Final Task 4: Portfolio section and footer](screenshots/final-task4-portfolio.png)
+
+![Additional page screenshot](screenshots/image.png)
 
