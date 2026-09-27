@@ -23,7 +23,19 @@ h3 {
 }
 
 /* Navigation */
+.page-layout {
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 220px minmax(0, 1fr);
+    grid-template-rows: auto 1fr auto;
+    grid-template-areas:
+        "header header"
+        "sidebar main"
+        "footer footer";
+}
+
 .site-header {
+    grid-area: header;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,6 +43,37 @@ h3 {
     padding: 18px 30px;
     color: #ffffff;
     background-color: #222222;
+}
+
+.page-sidebar {
+    grid-area: sidebar;
+    padding: 28px 20px;
+    background-color: #e5edf2;
+}
+
+.page-sidebar h2 {
+    margin-bottom: 14px;
+    font-size: 1rem;
+}
+
+.page-sidebar nav {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.page-sidebar a {
+    color: #1769aa;
+    text-decoration: none;
+}
+
+.page-sidebar a:hover {
+    text-decoration: underline;
+}
+
+.page-main {
+    grid-area: main;
+    min-width: 0;
 }
 
 .logo,
@@ -94,49 +137,6 @@ nav a:hover,
 .card-content .button {
     align-self: flex-start;
     margin-top: auto;
-}
-
-/* Grid layout */
-.areas-layout {
-    display: grid;
-    grid-template-columns: 1fr 3fr;
-    grid-template-areas:
-        "header header"
-        "sidebar main"
-        "footer footer";
-    gap: 10px;
-    padding: 10px;
-    background-color: #dddddd;
-}
-
-.areas-header,
-.areas-sidebar,
-.areas-main,
-.areas-footer {
-    padding: 20px;
-}
-
-.areas-header {
-    grid-area: header;
-    background-color: #1769aa;
-    color: #ffffff;
-}
-
-.areas-sidebar {
-    grid-area: sidebar;
-    background-color: #c9e3f5;
-}
-
-.areas-main {
-    grid-area: main;
-    min-height: 150px;
-    background-color: #ffffff;
-}
-
-.areas-footer {
-    grid-area: footer;
-    background-color: #555555;
-    color: #ffffff;
 }
 
 /* Gallery */
@@ -213,6 +213,7 @@ nav a:hover,
 
 /* Footer */
 .site-footer {
+    grid-area: footer;
     padding: 25px;
     color: #ffffff;
     background-color: #222222;
@@ -225,17 +226,27 @@ nav a:hover,
         flex-direction: column;
     }
 
-    .card-row {
-        flex-direction: column;
-    }
-
-    .areas-layout {
-        grid-template-columns: 1fr;
+    .page-layout {
+        grid-template-columns: minmax(0, 1fr);
+        grid-template-rows: auto auto 1fr auto;
         grid-template-areas:
             "header"
             "sidebar"
             "main"
             "footer";
+    }
+
+    .page-sidebar {
+        padding: 16px 20px;
+    }
+
+    .page-sidebar nav {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .card-row {
+        flex-direction: column;
     }
 
     .gallery-grid {
