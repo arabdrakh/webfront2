@@ -11,9 +11,9 @@ The header uses Flexbox to place the logo on the left and the navigation links o
 
 ![Task 0 Navigation Bar](screenshots/task0-navbar.png)
 
-### Task 1 - Card Row
+### Task 1 - Flower Card Row
 
-The three project cards are displayed in one row with Flexbox. The cards use equal width, equal height, a column layout, and a simple hover effect.
+Three flower cards are displayed in one row with Flexbox. Each card has an image, title, short text, and button. The cards have equal height and a simple hover effect.
 
 ![Task 1 Cards](screenshots/task1-cards.png)
 
@@ -25,30 +25,20 @@ This demonstration uses CSS Grid with named areas for a header, sidebar, main co
 
 ![Task 2 Grid Layout](screenshots/task2-grid-layout.png)
 
-### Task 3 - Image Gallery
+### Task 3 - Flower Gallery
 
-The gallery contains nine items in three equal columns on desktop screens. CSS Grid creates the layout, and a simple opacity overlay shows each caption when the item is hovered.
+The flower gallery contains nine images in three equal columns on desktop screens. CSS Grid creates the layout, and a caption appears over an image when it is hovered.
 
 ![Task 3 Gallery](screenshots/task3-gallery.png)
 
 ## Part 3 - Combining Flexbox & Grid
 
-### Task 4 - Portfolio Page
+### Task 4 - Flower Portfolio Page
 
-The portfolio uses CSS Grid for the project and about sections. Each project card uses Flexbox in a column direction, and the page also has the Flexbox navigation and a full-width footer.
+The flower portfolio uses CSS Grid for the flower cards and information sidebar. Each card uses Flexbox to arrange its content. The page also has a Flexbox navigation bar and a full-width footer.
 
 ![Task 4 Portfolio](screenshots/task4-portfolio.png)
 
 ## Work Process
 
-First, I created the basic HTML structure and connected the CSS file. Flexbox was used for the navigation and project cards. CSS Grid was used for the page layout demonstration and image gallery. Grid and Flexbox were combined in the portfolio section. Basic media queries were added for smaller screens. The image and screenshot files can be added later.
-
-## Manual Steps
-
-- Replace `YOUR NAME` and `YOUR GROUP`.
-- Add or replace the image files in the `images` folder.
-- Take screenshots for Tasks 0-4.
-- Put the screenshots in the `screenshots` folder using the names in this report.
-- Check the screenshot references in this README.
-- Create a public GitHub repository and push the commits.
-- Submit the GitHub URL.
+First, I created the HTML page and connected the CSS file. Flexbox is used for the navigation bar and flower cards. CSS Grid is used for the Grid Areas example and flower gallery. The portfolio combines Grid for its layout and Flexbox inside its cards. I added media queries to make the layouts work on smaller screens.
