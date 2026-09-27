@@ -26,7 +26,7 @@ The three flower cards are arranged in a row with Flexbox. Each card uses a colu
 
 The page layout uses named Grid areas for the header, section navigation sidebar, main content, and footer. On narrow screens, these areas stack vertically.
 
-![Process screenshot 4: Image display before final adjustments](screenshots/process-gallery-layout-4.png)
+![Process screenshot 4: Image display before final adjustments](screenshots/grid.png)
 
 ### Task 3: Image Gallery
 
