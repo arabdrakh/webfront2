@@ -35,7 +35,7 @@ The gallery contains nine items in three equal columns on desktop screens. CSS G
 
 ### Task 4 - Portfolio Page
 
-The portfolio uses CSS Grid for the project and about sections. Each project card uses Flexbox in a column direction, and the page also has the Flexbox navigation and a full-width footer.
+The portfolio uses CSS Grid to place one project card beside a concise information sidebar. The card uses Flexbox in a column direction, the header navigation uses Flexbox, and the footer spans the page width.
 
 ![Task 4 Portfolio](screenshots/task4-portfolio.png)
 
