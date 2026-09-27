@@ -105,15 +105,8 @@ nav a:hover,
     flex-direction: column;
     overflow: hidden;
     border: 1px solid #dddddd;
-    border-radius: 6px;
+    border-radius: 0;
     background-color: #ffffff;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
-    transition: 0.2s;
-}
-
-.project-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 5px 12px rgba(0, 0, 0, 0.18);
 }
 
 .project-card img {
@@ -194,7 +187,7 @@ nav a:hover,
 .about-sidebar {
     padding: 20px;
     border: 1px solid #dddddd;
-    border-radius: 6px;
+    border-radius: 0;
     background-color: #ffffff;
 }
 
@@ -268,14 +261,9 @@ button,
     display: inline-block;
     padding: 8px 14px;
     border: 0;
-    border-radius: 2px;
+    border-radius: 0;
     color: #ffffff;
     background-color: #6b5272;
     text-decoration: none;
     cursor: pointer;
-}
-
-.button:hover,
-button:hover {
-    background-color: #503b57;
 }
